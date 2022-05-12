@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100%;
+    background-color: aquamarine;
+}
+
+nav button {
+    height: 10vh;
+    width: 49%;
+    margin: 5px;
+}
+
+#title {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Permanent Marker', cursive;
+}
+#title h1 {
+    font-size: 50px;
+    text-shadow: 1px 1 white;
+} 
+#title p {
+    font-size: 50px;
+} 
+
+#clickme {
+    margin: 55px;
+    height: 50px;
+    width: 250px;
+    
+}
+
+p {
+    margin-top: 2rem;
+}
+
+@media all and (max-width: 1200px) {
+    nav button {
+        width: 100%;
+        }
+    nav{
+        margin-bottom: 2rem;
+    }
+}
